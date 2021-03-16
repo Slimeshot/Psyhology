@@ -24,7 +24,7 @@
 .therapy__line-bottom {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -3px;
 }
 
 /*# sourceMappingURL=therapy.css.map */
