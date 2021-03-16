@@ -69,7 +69,7 @@
 .about__item {
   background-color: white;
   max-width: 375px;
-  min-width: 300px;
+  min-width: 280px;
   padding: 30px;
   border-radius: 10px;
   margin: 0 10px 20px 10px;
@@ -94,7 +94,7 @@
 
 .about__line-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   width: 100%;
 }
 

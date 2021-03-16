@@ -14,7 +14,7 @@
     text-align: center;
 }
 .swiper-container {
-    width: 1200px;
+    width: 900px;
 }
 .swiper-wrapper {
  
@@ -25,16 +25,24 @@
     align-items: center;
     padding: 0 20px;
     background-color: #fff;
-    height: 700px;
+    height: 750px;
+    & img {
+        width: 200px;
+    }
 }
 .slide__name {
+    text-align: ceil($number: 0);
     margin-top: 30px;
     font-weight: 700;
     color: #29b981;
     font-size: 14px;
 }
 .slide__work {
+    height: 10px;
+    vertical-align: center;
+    text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: #6e7180;
     font-size: 16px;
     line-height: 1.2;
@@ -47,7 +55,7 @@
     font-weight: 400;
 }
 .swiper-button-prev {
-    left: -100px;
+    left: 0px;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -55,7 +63,7 @@
     border-radius: 50px;
 }
 .swiper-button-next {
-    right: -100px;
+    right: 0px;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -75,5 +83,5 @@
 .reviews__line-bottom {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: -3px;
 }

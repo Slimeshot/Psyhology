@@ -20,13 +20,13 @@
 
 .garants__item {
   max-width: 30%;
-  min-width: 300px;
-  margin: 15px;
+  min-width: 200px;
+  margin: 0 15px 40px 15px;
   text-align: center;
 }
 .garants__item img {
   height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .garants__subtitle {
@@ -38,7 +38,7 @@
 .garants__line-bottom {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -3px;
 }
 
 /*# sourceMappingURL=garants.css.map */

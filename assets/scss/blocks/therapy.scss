@@ -8,12 +8,14 @@
 .therapy__content {
     text-align: center;
     & img {
-        height: 300px;
+        width: 100%;
+        max-width: 800px;
+        height: auto;
     }
 }
 .therapy__title {
     margin: 0 auto;
-    width: 850px;
+    max-width: 850px;
     color: #272931;
     font-size: 40px;
     font-weight: 500;

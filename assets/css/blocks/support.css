@@ -6,7 +6,7 @@
 
 .support__title {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   color: #272931;
   font-size: 42px;
   font-weight: 600;
@@ -20,9 +20,9 @@
 }
 
 .support__item {
-  max-width: 30%;
-  min-width: 300px;
-  margin: 15px;
+  max-width: 25%;
+  min-width: 200px;
+  margin: 0 15px 50px 15px;
   text-align: center;
 }
 .support__item img {
@@ -39,7 +39,7 @@
 .support__line-bottom {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -3px;
 }
 
 /*# sourceMappingURL=support.css.map */
