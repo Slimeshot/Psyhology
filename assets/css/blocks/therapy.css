@@ -1,0 +1,30 @@
+.therapy {
+  position: relative;
+  padding: 100px 0 200px 0;
+  background-color: #fdfcf9;
+}
+
+.therapy__content {
+  text-align: center;
+}
+.therapy__content img {
+  height: 300px;
+}
+
+.therapy__title {
+  margin: 0 auto;
+  width: 850px;
+  color: #272931;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.therapy__line-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=therapy.css.map */

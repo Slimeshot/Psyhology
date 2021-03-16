@@ -1,0 +1,45 @@
+.support {
+  position: relative;
+  padding: 100px 0 200px 0;
+  background-color: #f0eeeb;
+}
+
+.support__title {
+  margin: 0 auto;
+  width: 600px;
+  color: #272931;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.support__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support__item {
+  max-width: 30%;
+  min-width: 300px;
+  margin: 15px;
+  text-align: center;
+}
+.support__item img {
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.support__subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.support__line-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=support.css.map */

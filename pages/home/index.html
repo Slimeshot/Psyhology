@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psyhology</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/css/style.css">
+    
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__content">
                 <div class="header__logo">
-                    <img src="https://static.tildacdn.com/tild3337-3933-4463-a661-663733333233/alter_logo_green.svg" alt="logo">
+                    <img src="Лого" alt="logo">
                 </div>
                 <div class="header__nav">
                     <div class="header__burger">
@@ -109,7 +111,7 @@
     <section class="appointment">
         <div class="container">
             <div class="appointment__content">
-                <h2 class="appointment__title">Как записаться через Alter</h2>
+                <h2 class="appointment__title">Как записаться через Лого</h2>
                 <p class="appointment__subtitle">Доступны как личные встречи, так и консультации через зум или скайп.</p>
                 
                 <div class="appointment__info-1">
@@ -175,11 +177,178 @@
     <section class="about">
         <div class="container">
             <div class="about__content">
-                <h1 class="about__title">Почему мы</h1>
-                <div class="about__text"></div>
+                <h2 class="about__title">Почему мы</h2>
+                <div class="about__info">
+                    <div class="about__text">
+                        <p class="about__subtitle">В России отсутствует лицензирование психотерапевтов и законы о психологической помощи: никто не проверяет образование, качество работы и адекватность методик практикующих специалистов. Лого решает эту проблему.</p>
+                        <p class="about__subtitle">Все наши психотерапевты прошли отбор по методике, разработанной совместно с ПИ РАО* — старейшим в России научно-исследовательским психологическим учреждением (1912г.). Только 21% психотерапевтов проходят отбор.</p>
+                    </div>
+                    <div class="about__img">
+                        <a href="#" class="about__link">
+                            <img src="https://thumb.tildacdn.com/tild6266-3833-4336-a162-343032653838/-/resize/140x/-/format/webp/logopirao2.png" alt="home">
+                        </a>
+                        <a href="#" class="about__link">Психологический институт Российской академии образования</a>
+                    </div>
+                </div>
+
+
+                <p class="about__label">Мы проверяем:</p>
+
+                <div class="about__check">
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Наличие дополнительного образования по длительной (от 500 часов) программе психотерапии
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Успешные кейсы по заявленным специализациям.
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Посещал ли специалист личного психотерапевта сам не менее года
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Знания о работе и устройстве психики.
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Уровень эмпатии и этические принципы, которыми специалист руководствуется в работе.
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <img src="https://static.tildacdn.com/tild6637-3630-4165-b863-353135303863/Group_23_low.svg" alt="check">
+                        <p class="about__text-small">
+                            Есть ли у него не менее 50 часов супервизии
+                        </p>
+                    </div>
+                </div>
+
+                <a href="" class="btn about__btn">Подобрать психотеравевта</a>
             </div>
         </div>
+
+        <img class="about__line-bottom" src="https://static.tildacdn.com/tild6133-3264-4566-b836-653732613136/Path-74341.svg" alt="line">
     </section>
 
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__content">
+                <h2 class="reviews__title">Отзывы</h2>
+                <div class="reviews__slider">  
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>  
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="https://thumb.tildacdn.com/tild6363-3632-4138-b861-366234393333/-/cover/360x202/center/center/-/format/webp/r6_1_low.jpg" alt="">
+                                <p class="slide__name">ОЛЕГ СТЕПАНОВ</p>
+                                <p class="slide__work">IT-специалист</p>
+                                <p class="slide__title">Я пробовал разные способы найти «своего» психотерапевта, могу сказать, что на Лого смог найти по-настоящему классных специалистов. Очень удобно, что можно сделать поиск психотерапевта, указав «проблемные» области.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://thumb.tildacdn.com/tild3263-3536-4863-b933-373337643237/-/cover/360x202/center/center/-/format/webp/r322_low.jpg" alt="">
+                                <p class="slide__name">АЛЕКСАНДРА ТИТАРЕВА</p>
+                                <p class="slide__work">Клинический психолог (частная практика)</p>
+                                <p class="slide__title">В процессе обучения мне понадобилась помощь специалиста. Выбор пал на Лого. Один из плюсов, что можно найти психолога в том же направлении, что и практикую сейчас сама (КПТ). С первым психологом не сложилось: были расхождения в методологии (мы из разных «школ») и появилось ощущение обесценивания. А вот со вторым осталась довольна и процессом, и результатом.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://thumb.tildacdn.com/tild3931-3233-4637-a362-663865363430/-/cover/360x202/center/center/-/format/webp/r4_low.jpg" alt="">
+                                <p class="slide__name">ОЛЕГ СТЕПАНОВ</p>
+                                <p class="slide__work">IT-специалист</p>
+                                <p class="slide__title">Я пробовал разные способы найти «своего» психотерапевта, могу сказать, что на Лого смог найти по-настоящему классных специалистов. Очень удобно, что можно сделать поиск психотерапевта, указав «проблемные» области.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                   
+            
+                </div>
+            </div>
+        </div>
+
+        <img class="reviews__line-bottom" src="https://static.tildacdn.com/tild6135-6636-4431-a164-663561363062/Path-743.svg" alt="line">
+    </section>
+
+
+    <section class="garants">
+        <div class="container">
+            <div class="garants__content">
+                <h2 class="garants__title">Гарантии Лого</h2>
+                <div class="garants__row">
+                    <div class="garants__item">
+                        <img src="https://static.tildacdn.com/tild6632-6239-4462-b430-396130656166/Group_172_low.svg" alt="foto">
+                        <div class="garants__subtitle">Ваша информация в безопасности и не передаётся третьим лицам. Только вы и психотерапевт. Психотерапевты подписывают соответствующее соглашение с нами.</div>
+                    </div>
+                    <div class="garants__item">
+                        <img src="https://static.tildacdn.com/tild3737-3730-4532-b534-346338363139/Group_2421_low.svg" alt="foto">
+                        <div class="garants__subtitle">Вы можете отменить запись не позднее, чем за 24 часа до встречи. Деньги вернутся вам на карту.</div>
+                    </div>
+                    <div class="garants__item">
+                        <img src="https://static.tildacdn.com/tild6339-3561-4732-b065-373161343963/Group_2512_low.svg" alt="foto">
+                        <div class="garants__subtitle">Психотерапевты периодически повышают цены на свои услуги. Стоимость сеанса у выбранного вами специалиста не повышается при повторной записи через наш сервис в течение года.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="garants__line-bottom" src="https://static.tildacdn.com/tild6133-3264-4566-b836-653732613136/Path-74341.svg" alt="line">
+    </section>
+
+
+    <section class="support">
+        <div class="container">
+            <div class="support__content">
+                <h2 class="support__title">Поддерживаем клиентов на всех этапах терапии</h2>
+                <div class="support__row">
+                    <div class="support__item">
+                        <img src="https://thumb.tildacdn.com/tild3335-6135-4332-b961-623631383638/-/resize/200x/-/format/webp/g-12x_s.png" alt="foto">
+                        <div class="support__subtitle">Вы получите полезные материалы о том, как сделать терапию максимально эффективной: чек-листы, инструкции, советы.</div>
+                    </div>
+                    <div class="support__item">
+                        <img src="https://thumb.tildacdn.com/tild6563-3465-4334-b864-643762643261/-/resize/200x/-/format/webp/g-22x_s.png" alt="foto">
+                        <div class="support__subtitle">Мы регулярно собираем обратную связь по нашим психотерапевтам, разбираемся со сложными случаями.</div>
+                    </div>
+                    <div class="support__item">
+                        <img src="https://thumb.tildacdn.com/tild3164-6133-4363-b033-366662616161/-/resize/200x/-/format/webp/g-32x_s.png" alt="foto">
+                        <div class="support__subtitle">Наша поддержка работает 7 дней в неделю.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="support__line-bottom" src="https://static.tildacdn.com/tild6135-6636-4431-a164-663561363062/Path-743.svg" alt="line">
+    </section>
+
+    <section class="therapy">
+        <div class="container">
+            <div class="therapy__content">
+                <h2 class="therapy__title">Делаем безопасную эффективную терапию доступной каждому!</h2>
+                <img src="https://thumb.tildacdn.com/tild3664-3065-4433-b135-386530613136/-/format/webp/41.png" alt="therapy">
+            </div>
+        </div>
+
+        <img class="therapy__line-bottom" src="https://static.tildacdn.com/tild6232-6363-4264-b137-306262303861/alter_green_w.svg" alt="line">
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/script.js"></script>
+
+
+    
 </body>
 </html>

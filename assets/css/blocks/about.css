@@ -1,0 +1,101 @@
+.about {
+  position: relative;
+  padding: 100px 0 200px 0;
+  background-color: #323648;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: 600px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.about__info {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.about__subtitle {
+  line-height: 25px;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 25px;
+  max-width: 800px;
+}
+
+.about__img {
+  background-image: url(https://static.tildacdn.com/tild3233-3935-4062-b063-313062656139/Oval_Copy_751.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  max-width: 250px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__link {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 20px;
+}
+.about__link:nth-child(2) {
+  position: relative;
+}
+.about__link:nth-child(2)::before {
+  position: absolute;
+  display: block;
+  content: "*";
+  left: -13px;
+  top: -3px;
+}
+
+.about__label {
+  font-size: 24px;
+  font-weight: 600px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.about__check {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about__item {
+  background-color: white;
+  max-width: 375px;
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 10px 20px 10px;
+}
+.about__item img {
+  margin-right: 5px;
+  margin-bottom: 20px;
+  height: 32px;
+}
+
+.about__text-small {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.about__btn {
+  display: block;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.about__line-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=about.css.map */
