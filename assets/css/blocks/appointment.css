@@ -1,0 +1,105 @@
+.appointment {
+  position: relative;
+  padding: 100px 0;
+  background-color: #fdfcf9;
+}
+
+.appointment__title {
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.appointment__subtitle {
+  margin: 0 auto;
+  max-width: 510px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.appointment__info-1 {
+  display: flex;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-image: url(https://static.tildacdn.com/tild6636-6639-4162-b431-323930376436/alter_01.svg);
+  background-size: 600px;
+}
+
+.appointment__info-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-image: url(https://static.tildacdn.com/tild3864-3230-4963-a462-646336316463/alter_02.svg);
+  background-size: 550px;
+  background-position: right;
+}
+
+.appointment__info-3 {
+  display: flex;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-image: url(https://static.tildacdn.com/tild3835-3963-4561-a163-663963616332/alter_03.svg);
+  background-size: 420px;
+  background-position-x: 200px;
+}
+
+.appointment__info-4 {
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-image: url(https://static.tildacdn.com/tild3237-3063-4337-b339-343161343661/alter_04.svg);
+  background-size: 410px;
+  background-position: right;
+}
+
+.appointment__info-5 {
+  display: flex;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-image: url(https://static.tildacdn.com/tild3133-3038-4234-b537-383436633530/alter_05.svg);
+  background-size: 430px;
+  background-position-x: 200px;
+}
+
+.appointment__img img {
+  max-width: 450px;
+  height: auto;
+}
+
+.appointment__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appointment__number {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.appointment__how {
+  line-height: 25px;
+  max-width: 270px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.appointment__btn {
+  margin: 50px auto;
+  margin-bottom: 100px;
+}
+
+.appointment__line-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=appointment.css.map */

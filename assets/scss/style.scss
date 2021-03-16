@@ -1,0 +1,28 @@
+@import "vars";
+@import "vendor/reset";
+
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/btn";
+@import "blocks/appointment";
+
+
+
