@@ -9,28 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .header__logo {
 }
 .header__nav {
     position: relative;
 }
-.header__burger {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // position: absolute;
-    top: 5px;
-    right: 0px;
-    width: 16px;
-    height: 12px;
-    display: none;
-}
-.line {
-    width: 100%;
-    height: 2px;
-    background-color: #000000;
-}
+
 .line-1 {
 }
 .line-2 {

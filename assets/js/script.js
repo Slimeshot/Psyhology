@@ -33,10 +33,22 @@ const swiper = new Swiper('.swiper-container', {
 
 const menuIcon = document.querySelector('.header__burger');
 const menu = document.querySelector('.header__menu');
+const bgFon = document.querySelector('.header__bg');
 
 
 menuIcon.addEventListener('click', () => {
   menu.classList.toggle('change');
   menuIcon.classList.toggle('btn-active');
+  document.body.classList.toggle('body__menushowed');
+  bgFon.classList.toggle('bg__black');
   
 })
+
+bgFon.addEventListener('click', () => {
+  menu.classList.toggle('change');
+  menuIcon.classList.toggle('btn-active');
+  document.body.classList.toggle('body__menushowed');
+  bgFon.classList.toggle('bg__black');
+  
+})
+
