@@ -233,6 +233,7 @@
   .garants__item {
     min-width: 300px;
   }
+
   .garants__item img {
     height: 30px;
   }
@@ -294,6 +295,7 @@
   .appointment__img {
     order: 2;
   }
+
   .appointment__img img {
     max-width: 300px;
     height: auto;
@@ -346,6 +348,7 @@
   .swiper-slide {
     height: 770px;
   }
+
   .swiper-slide img {
     width: 150px;
   }
@@ -377,5 +380,6 @@
     font-size: 36px;
   }
 }
+/*# sourceMappingURL=adaptiv.css.map */
 
 /*# sourceMappingURL=adaptiv.css.map */

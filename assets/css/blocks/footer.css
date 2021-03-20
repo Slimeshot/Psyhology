@@ -55,11 +55,15 @@
   display: block;
   margin-bottom: 100px;
 }
+
 .social__link img {
   height: 20px;
 }
+
 .social__link:nth-child(1) {
   margin-left: 0;
 }
+
+/*# sourceMappingURL=footer.css.map */
 
 /*# sourceMappingURL=footer.css.map */

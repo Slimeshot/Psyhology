@@ -1,0 +1,378 @@
+.formHolder__content {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.formHolder__form {
+  width: 63%;
+}
+
+.anketa {
+  padding: 30px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.anketa__breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.anketa__breadcrumbs-info {
+  margin-right: 35px;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #c5c5c5;
+  margin-bottom: 20px;
+}
+
+.anketa__breadcrumbs-info:nth-child(1) {
+  color: #000;
+}
+
+.anketa__breadcrumbs-info:nth-child(1):before {
+  position: absolute;
+  content: ">";
+  top: 1px;
+  right: -23px;
+  width: 10px;
+}
+
+.anketa__breadcrumbs-info:nth-child(2):before {
+  position: absolute;
+  content: ">";
+  top: 1px;
+  right: -23px;
+  width: 10px;
+}
+
+.anketa__info {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  margin-bottom: 20px;
+}
+
+.anketa__text {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #222;
+}
+
+.formHolder__info {
+  margin-left: 40px;
+  width: 20%;
+}
+
+.info_info__icon__1TCeC {
+  margin-bottom: 20px;
+}
+
+.security {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 7px;
+  font-family: "Montserrat", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.anketa__label {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.anketa__forms {
+  margin-top: 20px;
+}
+
+.anketa__menu {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.anketa__list {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: calc(50% - 10px);
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.anketa__input {
+  display: none;
+}
+
+.input__label {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.anketa__img {
+  width: 65px;
+  height: 65px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anketa__img img {
+  width: 100%;
+  height: auto;
+}
+
+.from__text {
+  width: 65%;
+  font-size: 18px;
+  vertical-align: middle;
+  font-family: "Montserrat", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  white-space: pre-wrap;
+}
+
+.LabeledRadio_radioInput__2sIqB {
+  appearance: none;
+  display: none;
+}
+
+.LabeledRadio_radioLabel__3nYiU {
+  margin: 0 5px 0 0;
+  padding: 0.6rem 1rem;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color 0.15s ease-out, color 0.25s ease-out, background-color 0.15s ease-out;
+}
+
+.LabeledRadio_radioLabel__3nYiU span {
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif !important;
+  font-style: normal;
+  font-display: swap;
+  color: #222;
+}
+
+.anketa__psyho {
+  margin-top: 20px;
+}
+
+.anketa__sex {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.LabeledCheckbox_checkboxInput__VOxep {
+  display: none;
+}
+
+.LabeledCheckbox_checkboxLabel__6FXCt {
+  text-align: center;
+  border: 1px solid #dedede;
+  padding: 11px;
+  line-height: 22px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.anketa__age {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.timePicker_timepicker_timezone__2qt0u {
+  display: flex;
+}
+
+.timePicker_timepicker_timezone_title__gbeLg {
+  font-size: 17px;
+  line-height: 38px;
+  margin-right: 10px;
+  color: #c5c5c5;
+}
+
+.Select_dropdown__2SD6N {
+  position: relative;
+  width: 100%;
+}
+
+.Select_selectButton__3jZvE {
+  color: #0094ff;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 38px;
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color 0.15s ease-out, color 0.25s ease-out, background-color 0.15s ease-out;
+  color: #222;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btn-next {
+  margin: 0.6rem 0;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color 0.15s ease-out, color 0.25s ease-out, background-color 0.15s ease-out;
+  color: rgba(34, 34, 34, 0.322);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.anketa__vars {
+  margin: 10px 0 15px;
+  color: #c5c5c5;
+}
+
+.timePicker_timepicker_hours__24xhg {
+  max-width: 480px;
+}
+
+.LabeledCheckbox_checkboxInput__VOxep {
+  display: none;
+}
+
+.timePicker_timepicker_hours__24xhg label {
+  width: 48px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.LabeledCheckbox_checkboxLabel__6FXCt {
+  text-align: center;
+  border: 1px solid #dedede;
+  padding: 11px;
+  line-height: 22px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menus {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.menus__list {
+  flex: 0 1 48%;
+  margin: 0 3px;
+  margin-bottom: 20px;
+}
+
+.menus__input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  padding: 0 20px;
+}
+
+.anketa_flexRow__w1sBv {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.anketa_submitSection__btn__34gua {
+  padding: 14px 57px !important;
+  height: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  background: #0094ff;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.anketa_submitSection__text__2dpZz {
+  font-size: 14px;
+  color: #8a8a8a;
+  line-height: 1.4;
+  padding-right: 40px;
+}
+
+.anketa_linkAggreement__U7sBa {
+  border-bottom: 1px solid rgba(138, 138, 138, 0.4);
+}
+
+.anketa_submitSection__text__2dpZz {
+  font-size: 14px;
+  color: #8a8a8a;
+  line-height: 1.4;
+  padding-right: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=ankets.css.map */
+
+/*# sourceMappingURL=ankets.css.map */

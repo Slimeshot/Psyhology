@@ -9,6 +9,7 @@
   max-width: 700px;
   margin-bottom: 20px;
 }
+
 .intro__row img {
   margin-right: 5px;
   margin-bottom: 10px;
@@ -37,6 +38,7 @@
   position: relative;
   margin-top: 30px;
 }
+
 .intro__btn::before {
   position: absolute;
   display: block;
@@ -64,6 +66,7 @@
   opacity: 0.2;
   transition: all 0.2s linear;
 }
+
 .sponsors__link img:hover {
   opacity: 0.6;
 }
@@ -103,5 +106,7 @@
   bottom: -3px;
   width: 100%;
 }
+
+/*# sourceMappingURL=intro.css.map */
 
 /*# sourceMappingURL=intro.css.map */
