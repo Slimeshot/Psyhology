@@ -1,0 +1,43 @@
+.garants {
+    position: relative;
+    padding: 100px 0 200px 0;
+    background-color: #fdfcf9;
+}
+.container {
+}
+.garants__content {
+}
+.garants__title {
+    color: #272931;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.garants__row {
+    display: flex;
+    justify-content: space-between;
+}
+.garants__item {
+    max-width: 30%;
+    min-width: 200px;
+    margin: 0 15px 40px 15px;
+    text-align: center;
+    & img {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+}
+.garants__subtitle {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.garants__line-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+}

@@ -1,0 +1,44 @@
+.header {
+  z-index: 100;
+  top: 0;
+  position: absolute;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header__nav {
+  position: relative;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  margin: 0 15px;
+}
+
+.header__link {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s;
+}
+
+.header__link:hover {
+  color: #29b981;
+}
+
+/*# sourceMappingURL=header.css.map */
+
+/*# sourceMappingURL=header.css.map */
