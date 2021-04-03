@@ -13,6 +13,15 @@
   position: relative;
 }
 
+.header__logo {
+  text-decoration: none;
+}
+.header__logo .header__logo-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #40bd89;
+}
+
 .header__nav {
   position: relative;
 }
@@ -34,11 +43,8 @@
   color: #000;
   transition: all 0.2s;
 }
-
 .header__link:hover {
   color: #29b981;
 }
-
-/*# sourceMappingURL=header.css.map */
 
 /*# sourceMappingURL=header.css.map */
